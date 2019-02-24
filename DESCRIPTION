@@ -1,0 +1,25 @@
+Package: N1000
+Title: Kartdata
+Version: 24.1.10
+Date: 2024-01-10
+Authors@R:
+    c(person(given = "Håkon",
+             family = "Malmedal",
+             role = c("aut", "cre"),
+             email = "hmalmedal@gmail.com"),
+      person(given = "Kartverket",
+             role = "cph"))
+Description: Kartdata fra Kartverket.
+License: CC BY 4.0
+URL: https://github.com/hmalmedal/N1000
+BugReports: https://github.com/hmalmedal/N1000/issues
+Depends:
+    R (>= 2.10)
+Imports:
+    sf,
+    tibble
+Encoding: UTF-8
+Language: no
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3

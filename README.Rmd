@@ -1,0 +1,24 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# N1000 Kartdata
+
+Kartdata fra [Kartverket](https://kartverket.no/).
+
+```{r kart}
+library(N1000)
+plot(sf::st_geometry(Kystkontur))
+plot(sf::st_geometry(Riksgrense), add = TRUE)
+```
